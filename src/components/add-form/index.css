@@ -1,0 +1,109 @@
+.add-form {
+  background: #85c6cc;
+  margin: 6px 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 60vh;
+  border-radius: 6px;
+}
+
+.form-item {
+  margin: 12px 0px;
+  width: 70%;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.form-item label {
+  background-color: transparent;
+  padding: 5px 0px;
+}
+
+.form-item input {
+  font-size: 16px;
+  border: none;
+  padding: 4px;
+  outline: none;
+  border-radius: 4px;
+  width: 85%;
+}
+
+.category-container-parent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.category {
+  position: relative;
+  width: 60%;
+  padding: 5px;
+}
+
+.category-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 4px 10px 4px 15px;
+}
+
+.category-dropdown i {
+  display: flex;
+  align-items: center;
+}
+
+.category-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.category-item {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px 8px 15px;
+  cursor: pointer;
+}
+
+.form-add-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-add-button div {
+  display: flex;
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-add-button div i {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .form-item {
+    width: 80%;
+  }
+  .form-item input {
+    width: 80%;
+  }
+  .amount-input {
+    width: 80% !important;
+  }
+  .category {
+    width: 65%;
+  }
+}
